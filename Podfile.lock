@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.1.5):
+    - Bolts/AppLinks (= 1.1.5)
+    - Bolts/Tasks (= 1.1.5)
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - EZAudio (0.0.6)
+  - Facebook-iOS-SDK (3.17.0):
+    - Bolts
+  - FBSDKMessengerShareKit (1.2.1)
+  - InstagramKit (3.5.0):
+    - AFNetworking (~> 2.0)
+  - MBProgressHUD (0.9.1)
+  - SCFacebook (3.0):
+    - Facebook-iOS-SDK (~> 3.17.0)
+    - SDWebImage (~> 3.6)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SoundManager (1.4.2)
+
+DEPENDENCIES:
+  - EZAudio (~> 0.0)
+  - FBSDKMessengerShareKit (~> 1.2)
+  - InstagramKit (~> 3.5)
+  - MBProgressHUD (~> 0.9)
+  - SCFacebook (~> 3.0)
+  - SoundManager (~> 1.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  EZAudio: feb8e1c3ec17d8933bc2efc66b59ead1f2e79e54
+  Facebook-iOS-SDK: edfd75144dd28ab1e1f62af1f061c74857128040
+  FBSDKMessengerShareKit: 519f089c21da027d56a39c345f999ac506ba65cb
+  InstagramKit: 32fe78c44f41701825ac567343fb2b682c6e3d02
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  SCFacebook: 64556c1bd015d4ae3b054305dc00363dbde35ca1
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SoundManager: 99ae328a3ec9b259db774c9851a65feeceba8183
+
+COCOAPODS: 0.36.0
